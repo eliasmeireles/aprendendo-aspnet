@@ -1,0 +1,5 @@
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DTO\bin\Debug\DTO.dll
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DTO\bin\Debug\DTO.pdb
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DTO\obj\Debug\DTO.dll
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DTO\obj\Debug\DTO.pdb

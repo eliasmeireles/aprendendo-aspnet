@@ -1,0 +1,66 @@
+﻿.cadastro-title {
+    width: 100%;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.formulario {
+    width: 100%;
+    margin: 0 auto;
+}
+.form-container {
+    display: flex;
+    width: 100%;
+    padding-bottom: 45px;
+}
+.cliente-dados {
+    flex: 1;
+}
+.cliente-sub-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 1.3em;
+}
+.input-form {
+    width: 80%;
+    padding: 1.5ch 1ch;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    outline: 0;
+    margin: 0 auto;
+    display: block;
+}
+.formulario .input-form.error {
+    border: none;
+}
+.litle-input {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.divisor {
+    flex: 1;
+}
+.divisor .input-form {
+    width: 90%;
+}
+.conta-info {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 45px;
+}
+.conta-info .input-form {
+    width: 45%;
+}
+.btn {
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    font-size: 1.3em;
+    outline: 0;
+    padding: .48em;
+    border-radius: 5px;
+}

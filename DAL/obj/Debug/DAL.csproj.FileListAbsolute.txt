@@ -1,0 +1,8 @@
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DAL\bin\Debug\DAL.dll
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DAL\bin\Debug\DAL.pdb
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DAL\bin\Debug\DTO.dll
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DAL\bin\Debug\MySql.Data.dll
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DAL\bin\Debug\DTO.pdb
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DAL\obj\Debug\DAL.dll
+c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DAL\obj\Debug\DAL.pdb

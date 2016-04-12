@@ -1,0 +1,32 @@
+﻿html, body {
+	height: 100%;
+}
+.main {
+    padding-top: 80px;
+	padding-bottom: 80px; /* Igual ao height do footer */
+}
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+.footer {
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+}
+.footer-border {
+    position: relative;
+    width: 100%;
+}
+.footer-border .zigzag {
+    position: absolute;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.dev-info {
+    display: block;
+    padding-top: 35px;
+    text-align: center;
+}
