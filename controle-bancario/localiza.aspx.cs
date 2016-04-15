@@ -24,32 +24,55 @@ namespace controle_bancario
 
 
 
-            cliente.Email = email.Text;
             cliente.Cpf = cpf.Text;
+
 
             cliente = validaCliente.localizar(cliente);
 
-            nome.Text = cliente.Nome;
-            sobreNome.Text = cliente.Sobrenome;
-            cpf.Text = cliente.Cpf;
-            telefone.Text = cliente.Telefone;
-            email.Text = cliente.Email;
-            celular.Text = cliente.Celular;
-            dataNascimento.Text = cliente.Data_nascimento.ToShortDateString();
+            limpaaErros();
+            if (cliente.Email != null)
+            {
 
-            endereco = validaEndereco.localizar(cliente);
+                nome.Text = cliente.Nome;
+                sobreNome.Text = cliente.Sobrenome;
+                cpf.Text = cliente.Cpf;
+                telefone.Text = cliente.Telefone;
+                email.Text = cliente.Email;
+                celular.Text = cliente.Celular;
+                dataNascimento.Text = cliente.Data_nascimento.ToShortDateString();
 
-            cep.Text = endereco.Cep;
-            logradouro.Text = endereco.Logradouro;
-            numero.Text = endereco.Numero;
-            complemento.Text = endereco.Complemento;
-            bairro.Text = endereco.Bairro;
-            cidade.Text = endereco.Cidade;
-            estado.Text = endereco.Estado;
-            pais.Text = endereco.Pais;
+                endereco.Cliente_id = cliente.Id;
+                endereco = validaEndereco.localizar(endereco);
 
-
-
+                cep.Text = endereco.Cep;
+                logradouro.Text = endereco.Logradouro;
+                numero.Text = endereco.Numero;
+                complemento.Text = endereco.Complemento;
+                bairro.Text = endereco.Bairro;
+                cidade.Text = endereco.Cidade;
+                estado.Text = endereco.Estado;
+                pais.Text = endereco.Pais;
+            }
+            else
+            {
+                cpfErro.Text = "Cpf invalido ou o cliente não é cadastrado!";
+            }
+        }
+        protected void limpaaErros()
+        {
+            nome.Text = "";
+            sobreNome.Text = "";
+            email.Text = "";
+            telefone.Text = "";
+            celular.Text = "";
+            cpfErro.Text = "";
+            logradouro.Text = "";
+            cep.Text = "";
+            pais.Text = "";
+            cidade.Text = "";
+            numero.Text = "";
+            complemento.Text = "";
+            estado.Text = "";
         }
     }
 }

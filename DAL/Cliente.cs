@@ -52,22 +52,32 @@ namespace DAL
             Banco banco = new Banco();
 
             string sql = "select id i, nome n, sobrenome s, email e, cpf c, data_nascimento d, "
-                + "telefone t, celular ce from cliente";
+                + "telefone t, celular ce from cliente cl where cl.cpf = " + cliente.Cpf;
 
-            DataTable table = banco.dataServiceSelect(sql, cliente);
+            DataTable table = banco.dataServiceSelect(sql, null);
 
             DTO.Cliente c = new DTO.Cliente();
 
-            c.Id = int.Parse(table.Rows[0]["i"].ToString());
-            c.Nome = table.Rows[0]["n"].ToString();
-            c.Sobrenome = table.Rows[0]["s"].ToString();
-            c.Cpf = table.Rows[0]["c"].ToString();
-            c.Email = table.Rows[0]["e"].ToString();
-            c.Data_nascimento = DateTime.Parse(table.Rows[0]["d"].ToString());
-            c.Telefone = table.Rows[0]["t"].ToString();
-            c.Celular = table.Rows[0]["ce"].ToString();
+            try
+            {
 
-            return c;
+                c.Id = int.Parse(table.Rows[0]["i"].ToString());
+                c.Nome = table.Rows[0]["n"].ToString();
+                c.Sobrenome = table.Rows[0]["s"].ToString();
+                c.Cpf = table.Rows[0]["c"].ToString();
+                c.Email = table.Rows[0]["e"].ToString();
+                c.Data_nascimento = DateTime.Parse(table.Rows[0]["d"].ToString());
+                c.Telefone = table.Rows[0]["t"].ToString();
+                c.Celular = table.Rows[0]["ce"].ToString();
+
+                return c;
+            }
+            catch (Exception)
+            {
+
+                return new DTO.Cliente();
+            }
+
         }
 
         public DataTable localizarTdo()

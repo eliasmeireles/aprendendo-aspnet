@@ -15,10 +15,10 @@ namespace BLL
             DAL.Endereco e = new DAL.Endereco();
             e.dataService(endereco);
         }
-        public DTO.Endereco localizar(DTO.Cliente cliente)
+        public DTO.Endereco localizar(DTO.Endereco endereco)
         {
-            DAL.Endereco endereco = new DAL.Endereco();
-            return endereco.localizar(cliente);
+            DAL.Endereco e = new DAL.Endereco();
+            return e.localizar(endereco);
         }
         public void updae(DTO.Endereco endereco)
         {

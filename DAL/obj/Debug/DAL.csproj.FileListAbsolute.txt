@@ -25,3 +25,13 @@ C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DA
 C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DAL\obj\Debug\DAL.pdb
 C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DAL\bin\Debug\FW.dll
 C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DAL\bin\Debug\FW.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DAL\bin\Debug\DAL.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DAL\bin\Debug\DAL.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DAL\bin\Debug\DTO.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DAL\bin\Debug\FW.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DAL\bin\Debug\MySql.Data.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DAL\bin\Debug\DTO.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DAL\bin\Debug\FW.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DAL\obj\Debug\DAL.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DAL\obj\Debug\DAL.pdb

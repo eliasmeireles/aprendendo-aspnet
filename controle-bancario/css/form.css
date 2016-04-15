@@ -72,3 +72,15 @@
 .form-container .form-localiza .input-form {
     margin-bottom: 30px;
 }
+.form-localiza .cpf-form .divisor {
+    position: relative;
+}
+.form-localiza .cpf-form .error {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 41px;
+    font-size: 0.85em;
+    height: 0;
+    line-height: 0.9;
+}

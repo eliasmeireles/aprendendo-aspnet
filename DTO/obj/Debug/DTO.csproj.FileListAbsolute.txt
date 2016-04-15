@@ -16,3 +16,12 @@ C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DT
 C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DTO\bin\Debug\MySql.Data.dll
 C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DTO\bin\Debug\FW.pdb
 C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DTO\bin\Debug\DTO.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DTO\bin\Debug\DTO.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DTO\bin\Debug\FW.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DTO\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DTO\bin\Debug\MySql.Data.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DTO\bin\Debug\FW.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DTO\obj\Debug\DTO.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\DTO\obj\Debug\DTO.pdb

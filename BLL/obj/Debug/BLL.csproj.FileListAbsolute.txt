@@ -31,3 +31,15 @@ C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\BL
 C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\BLL\obj\Debug\BLL.pdb
 C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\BLL\bin\Debug\FW.dll
 C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\BLL\bin\Debug\FW.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\BLL\bin\Debug\BLL.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\BLL\bin\Debug\BLL.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\BLL\bin\Debug\DAL.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\BLL\bin\Debug\DTO.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\BLL\bin\Debug\MySql.Data.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\BLL\bin\Debug\FW.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\BLL\bin\Debug\DAL.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\BLL\bin\Debug\DTO.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\BLL\bin\Debug\FW.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\BLL\obj\Debug\BLL.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet\BLL\obj\Debug\BLL.pdb

@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="alterar.aspx" />
     <Content Include="clientes.aspx" />
+    <Content Include="css\localiza.css" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

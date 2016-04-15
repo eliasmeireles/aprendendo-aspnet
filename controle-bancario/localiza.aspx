@@ -28,9 +28,10 @@
 
                 <asp:TextBox ID="email" type="email" runat="server" placeholder="Email" disabled CssClass="input-form font-primary"></asp:TextBox>
 
-                <div class="litle-input">
+                <div class="litle-input cpf-form">
                     <div class="divisor">
                         <asp:TextBox ID="cpf" runat="server" placeholder="CPF" CssClass="input-form font-primary"></asp:TextBox>
+                        <asp:Label ID="cpfErro" runat="server" Text="" CssClass="cliente-sub-title error font-primary-bold"></asp:Label>
                     </div>
                     <div class="divisor">
                         <asp:TextBox ID="dataNascimento" runat="server" disabled placeholder="Data de Nascimento" CssClass="input-form font-primary"></asp:TextBox>
