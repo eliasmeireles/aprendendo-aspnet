@@ -3,3 +3,16 @@ c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DTO\bin\D
 c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DTO\obj\Debug\DTO.dll
 c:\users\elias\documents\visual studio 2015\Projects\controle-bancario\DTO\obj\Debug\DTO.pdb
+H:\visual studio 2013\Projects\aprendendo-aspnet-master\DTO\bin\Debug\DTO.dll
+H:\visual studio 2013\Projects\aprendendo-aspnet-master\DTO\bin\Debug\DTO.pdb
+H:\visual studio 2013\Projects\aprendendo-aspnet-master\DTO\obj\Debug\DTO.dll
+H:\visual studio 2013\Projects\aprendendo-aspnet-master\DTO\obj\Debug\DTO.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DTO\bin\Debug\DTO.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DTO\bin\Debug\DTO.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DTO\obj\Debug\DTO.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DTO\obj\Debug\DTO.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DTO\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DTO\bin\Debug\FW.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DTO\bin\Debug\MySql.Data.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DTO\bin\Debug\FW.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache

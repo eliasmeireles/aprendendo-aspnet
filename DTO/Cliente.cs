@@ -10,13 +10,13 @@ namespace DTO
     public class Cliente
     {
         private int id;
-        private String nome;
-        private String sobrenome;
-        private String email;
-        private String cpf;
-        private String telefone;
-        private String celular;
-        private String dataDoNascimento;
+        private string nome;
+        private string sobrenome;
+        private string email;
+        private string cpf;
+        private string telefone;
+        private string celular;
+        private DateTime data_nascimento;
 
         public int Id
         {
@@ -30,6 +30,7 @@ namespace DTO
                 id = value;
             }
         }
+
         public string Nome
         {
             get
@@ -41,11 +42,6 @@ namespace DTO
             {
                 nome = value;
             }
-        }
-
-        public static explicit operator Cliente(DataRow v)
-        {
-            throw new NotImplementedException();
         }
 
         public string Sobrenome
@@ -60,6 +56,7 @@ namespace DTO
                 sobrenome = value;
             }
         }
+
         public string Email
         {
             get
@@ -112,24 +109,17 @@ namespace DTO
             }
         }
 
-        public string DataDoNascimento
+        public DateTime Data_nascimento
         {
             get
             {
-                return dataDoNascimento;
+                return data_nascimento.Date;
             }
 
             set
             {
-                dataDoNascimento = value;
+                data_nascimento = value;
             }
         }
-
-        public void teste()
-        {
-            Console.WriteLine(nome);
-            Console.WriteLine(email);
-        }
-
     }
 }

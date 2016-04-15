@@ -40,15 +40,6 @@ namespace controle_bancario {
         protected global::System.Web.UI.WebControls.TextBox nome;
         
         /// <summary>
-        /// nomeErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label nomeErro;
-        
-        /// <summary>
         /// sobreNome control.
         /// </summary>
         /// <remarks>
@@ -56,15 +47,6 @@ namespace controle_bancario {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox sobreNome;
-        
-        /// <summary>
-        /// sobrenomeErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label sobrenomeErro;
         
         /// <summary>
         /// email control.
@@ -76,15 +58,6 @@ namespace controle_bancario {
         protected global::System.Web.UI.WebControls.TextBox email;
         
         /// <summary>
-        /// emailErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label emailErro;
-        
-        /// <summary>
         /// cpf control.
         /// </summary>
         /// <remarks>
@@ -92,15 +65,6 @@ namespace controle_bancario {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox cpf;
-        
-        /// <summary>
-        /// cpfErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label cpfErro;
         
         /// <summary>
         /// dataNascimento control.
@@ -112,15 +76,6 @@ namespace controle_bancario {
         protected global::System.Web.UI.WebControls.TextBox dataNascimento;
         
         /// <summary>
-        /// nascimentoErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label nascimentoErro;
-        
-        /// <summary>
         /// telefone control.
         /// </summary>
         /// <remarks>
@@ -130,15 +85,6 @@ namespace controle_bancario {
         protected global::System.Web.UI.WebControls.TextBox telefone;
         
         /// <summary>
-        /// telefoneErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label telefoneErro;
-        
-        /// <summary>
         /// celular control.
         /// </summary>
         /// <remarks>
@@ -146,15 +92,6 @@ namespace controle_bancario {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox celular;
-        
-        /// <summary>
-        /// celularErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label celularErro;
         
         /// <summary>
         /// Label2 control.
@@ -175,15 +112,6 @@ namespace controle_bancario {
         protected global::System.Web.UI.WebControls.TextBox cep;
         
         /// <summary>
-        /// cepErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label cepErro;
-        
-        /// <summary>
         /// logradouro control.
         /// </summary>
         /// <remarks>
@@ -191,15 +119,6 @@ namespace controle_bancario {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox logradouro;
-        
-        /// <summary>
-        /// logradouroErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label logradouroErro;
         
         /// <summary>
         /// numero control.
@@ -211,15 +130,6 @@ namespace controle_bancario {
         protected global::System.Web.UI.WebControls.TextBox numero;
         
         /// <summary>
-        /// numeroErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label numeroErro;
-        
-        /// <summary>
         /// complemento control.
         /// </summary>
         /// <remarks>
@@ -227,15 +137,6 @@ namespace controle_bancario {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox complemento;
-        
-        /// <summary>
-        /// complementoErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label complementoErro;
         
         /// <summary>
         /// bairro control.
@@ -247,15 +148,6 @@ namespace controle_bancario {
         protected global::System.Web.UI.WebControls.TextBox bairro;
         
         /// <summary>
-        /// bairroErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label bairroErro;
-        
-        /// <summary>
         /// cidade control.
         /// </summary>
         /// <remarks>
@@ -263,15 +155,6 @@ namespace controle_bancario {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox cidade;
-        
-        /// <summary>
-        /// cidadeErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label cidadeErro;
         
         /// <summary>
         /// estado control.
@@ -283,15 +166,6 @@ namespace controle_bancario {
         protected global::System.Web.UI.WebControls.TextBox estado;
         
         /// <summary>
-        /// estadoErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label estadoErro;
-        
-        /// <summary>
         /// pais control.
         /// </summary>
         /// <remarks>
@@ -299,15 +173,6 @@ namespace controle_bancario {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox pais;
-        
-        /// <summary>
-        /// paisErro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label paisErro;
         
         /// <summary>
         /// localizar control.

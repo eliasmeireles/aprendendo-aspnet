@@ -8,6 +8,6 @@ namespace DTO
 {
     public enum TiposDeConta
     {
-        Poupança, Corrente
+       Poupança, Corrente
     }
 }

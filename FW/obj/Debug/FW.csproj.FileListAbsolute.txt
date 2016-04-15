@@ -1,0 +1,11 @@
+H:\visual studio 2013\Projects\aprendendo-aspnet-master\FW\bin\Debug\FW.dll
+H:\visual studio 2013\Projects\aprendendo-aspnet-master\FW\bin\Debug\FW.pdb
+H:\visual studio 2013\Projects\aprendendo-aspnet-master\FW\obj\Debug\FW.csprojResolveAssemblyReference.cache
+H:\visual studio 2013\Projects\aprendendo-aspnet-master\FW\obj\Debug\FW.dll
+H:\visual studio 2013\Projects\aprendendo-aspnet-master\FW\obj\Debug\FW.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\FW\bin\Debug\FW.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\FW\bin\Debug\FW.pdb
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\FW\bin\Debug\MySql.Data.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\FW\obj\Debug\FW.csprojResolveAssemblyReference.cache
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\FW\obj\Debug\FW.dll
+C:\Users\elias\Documents\Visual Studio 2015\Projects\aprendendo-aspnet-master\FW\obj\Debug\FW.pdb

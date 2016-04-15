@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using BLL;
-using DTO;
 
 namespace controle_bancario
 {
@@ -18,19 +17,38 @@ namespace controle_bancario
 
         protected void cadastrar_Click(object sender, EventArgs e)
         {
-            ValidaCliente valida = new ValidaCliente();
-            Cliente cliente = new Cliente();
+            BLL.Cliente validaCliente = new BLL.Cliente();
+            BLL.Endereco validaEndereco = new BLL.Endereco();
+            DTO.Cliente cliente = new DTO.Cliente();
+            DTO.Endereco endereco = new DTO.Endereco();
+
+
 
             cliente.Email = email.Text;
+            cliente.Cpf = cpf.Text;
 
-            cliente = valida.localizar(cliente);
+            cliente = validaCliente.localizar(cliente);
 
             nome.Text = cliente.Nome;
             sobreNome.Text = cliente.Sobrenome;
             cpf.Text = cliente.Cpf;
             telefone.Text = cliente.Telefone;
+            email.Text = cliente.Email;
             celular.Text = cliente.Celular;
-            dataNascimento.Text = cliente.DataDoNascimento;
+            dataNascimento.Text = cliente.Data_nascimento.ToShortDateString();
+
+            endereco = validaEndereco.localizar(cliente);
+
+            cep.Text = endereco.Cep;
+            logradouro.Text = endereco.Logradouro;
+            numero.Text = endereco.Numero;
+            complemento.Text = endereco.Complemento;
+            bairro.Text = endereco.Bairro;
+            cidade.Text = endereco.Cidade;
+            estado.Text = endereco.Estado;
+            pais.Text = endereco.Pais;
+
+
 
         }
     }

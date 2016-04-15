@@ -9,15 +9,15 @@ namespace DTO
     public class Endereco
     {
         private int id;
-        private Cliente cliente;
-        private String cep;
-        private String logradouro;
-        private String numero;
-        private String complemento;
-        private String bairro;
-        private String ciadade;
-        private String estado;
-        private String pais;
+        private string cep;
+        private string logradouro;
+        private string numero;
+        private string complemento;
+        private string bairro;
+        private string cidade;
+        private string estado;
+        private string pais;
+        private int cliente_id;
 
         public int Id
         {
@@ -29,19 +29,6 @@ namespace DTO
             set
             {
                 id = value;
-            }
-        }
-
-        public Cliente Cliente
-        {
-            get
-            {
-                return cliente;
-            }
-
-            set
-            {
-                cliente = value;
             }
         }
 
@@ -57,6 +44,7 @@ namespace DTO
                 cep = value;
             }
         }
+
         public string Logradouro
         {
             get
@@ -109,16 +97,16 @@ namespace DTO
             }
         }
 
-        public string Ciadade
+        public string Cidade
         {
             get
             {
-                return ciadade;
+                return cidade;
             }
 
             set
             {
-                ciadade = value;
+                cidade = value;
             }
         }
 
@@ -148,5 +136,17 @@ namespace DTO
             }
         }
 
+        public int Cliente_id
+        {
+            get
+            {
+                return cliente_id;
+            }
+
+            set
+            {
+                cliente_id = value;
+            }
+        }
     }
 }

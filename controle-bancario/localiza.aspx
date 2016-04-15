@@ -19,83 +19,68 @@
 
 
         <div class="form-container">
-            <div class="cliente-dados">
+            <div class="cliente-dados form-localiza">
                 <asp:Label ID="Label3" runat="server" Text="Dados Pessoais" CssClass="cliente-sub-title font-primary-bold"></asp:Label>
 
-                <asp:TextBox ID="nome" runat="server" placeholder="Nome" CssClass="input-form font-primary"></asp:TextBox>
-                <asp:Label ID="nomeErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                <asp:TextBox ID="nome" runat="server" placeholder="Nome" disabled CssClass="input-form font-primary"></asp:TextBox>
 
-                <asp:TextBox ID="sobreNome" runat="server" placeholder="Sobrenome" CssClass="input-form font-primary"></asp:TextBox>
-                <asp:Label ID="sobrenomeErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                <asp:TextBox ID="sobreNome" runat="server" placeholder="Sobrenome" disabled CssClass="input-form font-primary"></asp:TextBox>
 
-                <asp:TextBox ID="email" type="email" runat="server" placeholder="Email" CssClass="input-form font-primary"></asp:TextBox>
-                <asp:Label ID="emailErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                <asp:TextBox ID="email" type="email" runat="server" placeholder="Email" disabled CssClass="input-form font-primary"></asp:TextBox>
 
                 <div class="litle-input">
                     <div class="divisor">
                         <asp:TextBox ID="cpf" runat="server" placeholder="CPF" CssClass="input-form font-primary"></asp:TextBox>
-                        <asp:Label ID="cpfErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
                     </div>
                     <div class="divisor">
-                        <asp:TextBox ID="dataNascimento" runat="server" placeholder="Data de Nascimento" CssClass="input-form font-primary"></asp:TextBox>
-                        <asp:Label ID="nascimentoErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                        <asp:TextBox ID="dataNascimento" runat="server" disabled placeholder="Data de Nascimento" CssClass="input-form font-primary"></asp:TextBox>
                     </div>
                 </div>
 
                 <div class="litle-input">
                     <div class="divisor">
-                        <asp:TextBox ID="telefone" runat="server" placeholder="Telefone" CssClass="input-form font-primary"></asp:TextBox>
-                        <asp:Label ID="telefoneErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                        <asp:TextBox ID="telefone" runat="server" placeholder="Telefone" disabled CssClass="input-form font-primary"></asp:TextBox>
                     </div>
                     <div class="divisor">
-                        <asp:TextBox ID="celular" runat="server" placeholder="Celular" CssClass="input-form font-primary"></asp:TextBox>
-                        <asp:Label ID="celularErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                        <asp:TextBox ID="celular" runat="server" placeholder="Celular" disabled CssClass="input-form font-primary"></asp:TextBox>
                     </div>
                 </div>
 
 
             </div>
 
-            <div class="cliente-dados">
+            <div class="cliente-dados form-localiza">
 
                 <asp:Label ID="Label2" runat="server" Text="Endereço" CssClass="cliente-sub-title font-primary-bold"></asp:Label>
 
-                <asp:TextBox ID="cep" runat="server" placeholder="CEP" CssClass="input-form font-primary"></asp:TextBox>
-                <asp:Label ID="cepErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                <asp:TextBox ID="cep" runat="server" placeholder="CEP" disabled CssClass="input-form font-primary"></asp:TextBox>
 
-                <asp:TextBox ID="logradouro" runat="server" placeholder="Logradouro" CssClass="input-form font-primary"></asp:TextBox>
-                <asp:Label ID="logradouroErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                <asp:TextBox ID="logradouro" runat="server" placeholder="Logradouro" disabled CssClass="input-form font-primary"></asp:TextBox>
 
                 <div class="litle-input">
                     <div class="divisor">
-                        <asp:TextBox ID="numero" runat="server" placeholder="Número" CssClass="input-form font-primary"></asp:TextBox>
-                        <asp:Label ID="numeroErro" runat="server" Text="" CssClass="input-form error error font-primary"></asp:Label>
+                        <asp:TextBox ID="numero" runat="server" placeholder="Número" disabled CssClass="input-form font-primary"></asp:TextBox>
                     </div>
                     <div class="divisor">
-                        <asp:TextBox ID="complemento" runat="server" placeholder="Complemento" CssClass="input-form font-primary"></asp:TextBox>
-                        <asp:Label ID="complementoErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                        <asp:TextBox ID="complemento" runat="server" placeholder="Complemento" disabled CssClass="input-form font-primary"></asp:TextBox>
                     </div>
                 </div>
 
                 <div class="litle-input">
                     <div class="divisor">
-                        <asp:TextBox ID="bairro" runat="server" placeholder="Bairro" CssClass="input-form font-primary"></asp:TextBox>
-                        <asp:Label ID="bairroErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                        <asp:TextBox ID="bairro" runat="server" placeholder="Bairro"  disabled CssClass="input-form font-primary"></asp:TextBox>
                     </div>
                     <div class="divisor">
-                        <asp:TextBox ID="cidade" runat="server" placeholder="Cidade" CssClass="input-form font-primary"></asp:TextBox>
-                        <asp:Label ID="cidadeErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                        <asp:TextBox ID="cidade" runat="server" placeholder="Cidade" disabled CssClass="input-form font-primary"></asp:TextBox>
                     </div>
                 </div>
 
                 <div class="litle-input">
                     <div class="divisor">
-                        <asp:TextBox ID="estado" runat="server" placeholder="Estado" CssClass="input-form font-primary"></asp:TextBox>
-                        <asp:Label ID="estadoErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                        <asp:TextBox ID="estado" runat="server" placeholder="Estado" disabled CssClass="input-form font-primary"></asp:TextBox>
                     </div>
                     <div class="divisor">
-                        <asp:TextBox ID="pais" runat="server" placeholder="Pais" CssClass="input-form font-primary"></asp:TextBox>
-                        <asp:Label ID="paisErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+                        <asp:TextBox ID="pais" runat="server" placeholder="Pais" disabled CssClass="input-form font-primary"></asp:TextBox>
                     </div>
                 </div>
             </div>

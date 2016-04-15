@@ -51,9 +51,14 @@
     margin: 0 auto;
     display: flex;
     padding-bottom: 45px;
+    align-items: flex-start;
 }
-.conta-info .input-form {
-    width: 45%;
+.conta-info .conta  {
+    flex: 1;
+    margin: 4px;
+}
+.conta-info .conta .input-form {
+    width: 100%;
 }
 .btn {
     display: block;
@@ -63,4 +68,7 @@
     outline: 0;
     padding: .48em;
     border-radius: 5px;
+}
+.form-container .form-localiza .input-form {
+    margin-bottom: 30px;
 }

@@ -310,6 +310,15 @@ namespace controle_bancario {
         protected global::System.Web.UI.WebControls.Label paisErro;
         
         /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+        
+        /// <summary>
         /// tiposDeConta control.
         /// </summary>
         /// <remarks>
@@ -319,6 +328,33 @@ namespace controle_bancario {
         protected global::System.Web.UI.WebControls.DropDownList tiposDeConta;
         
         /// <summary>
+        /// contaTipoErro control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label contaTipoErro;
+        
+        /// <summary>
+        /// agencia control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList agencia;
+        
+        /// <summary>
+        /// agenciaErro control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label agenciaErro;
+        
+        /// <summary>
         /// saldoDeEntrada control.
         /// </summary>
         /// <remarks>
@@ -326,6 +362,15 @@ namespace controle_bancario {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox saldoDeEntrada;
+        
+        /// <summary>
+        /// saldoErro control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label saldoErro;
         
         /// <summary>
         /// cadastrar control.

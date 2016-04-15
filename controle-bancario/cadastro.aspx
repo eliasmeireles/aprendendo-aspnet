@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <title></title>
     <%		   
         Response.WriteFile("head.html");
     %>
@@ -37,7 +38,7 @@
                         <asp:Label ID="cpfErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
                     </div>
                     <div class="divisor">
-                        <asp:TextBox ID="dataNascimento" runat="server" placeholder="Data de Nascimento" CssClass="input-form font-primary"></asp:TextBox>
+                        <asp:TextBox ID="dataNascimento" runat="server" placeholder="Data do nascimento" CssClass="input-form font-primary"></asp:TextBox>
                         <asp:Label ID="nascimentoErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
                     </div>
                 </div>
@@ -82,6 +83,7 @@
                         <asp:TextBox ID="bairro" runat="server" placeholder="Bairro" CssClass="input-form font-primary"></asp:TextBox>
                         <asp:Label ID="bairroErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
                     </div>
+
                     <div class="divisor">
                         <asp:TextBox ID="cidade" runat="server" placeholder="Cidade" CssClass="input-form font-primary"></asp:TextBox>
                         <asp:Label ID="cidadeErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
@@ -101,9 +103,23 @@
             </div>
         </div>
 
+        <asp:Label ID="Label1" runat="server" Text="Dados da Conta" CssClass="cliente-sub-title font-primary-bold"></asp:Label>
+
         <div class="conta-info">
-            <asp:DropDownList ID="tiposDeConta" runat="server" CssClass="input-form font-primary"></asp:DropDownList>
-            <asp:TextBox ID="saldoDeEntrada" type="number" runat="server" placeholder="Saldo inicial da conta" CssClass="input-form font-primary"></asp:TextBox>
+            <div class="conta tipo-conta">
+                <asp:DropDownList ID="tiposDeConta" runat="server" CssClass="input-form font-primary"></asp:DropDownList>
+                <asp:Label ID="contaTipoErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+            </div>
+
+            <div class="conta angencia-info">
+                <asp:DropDownList ID="agencia" runat="server" CssClass="input-form font-primary"></asp:DropDownList>
+                <asp:Label ID="agenciaErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+            </div>
+
+            <div class="conta saldo-inf">
+                <asp:TextBox ID="saldoDeEntrada" type="number" step="00.01" runat="server" placeholder="Saldo inicial da conta" CssClass="input-form font-primary"></asp:TextBox>
+                <asp:Label ID="saldoErro" runat="server" Text="" CssClass="input-form error font-primary"></asp:Label>
+            </div>
         </div>
 
         <asp:button ID="cadastrar" runat="server" text="Cadastrar" CssClass="btn btn-cadastrar font-primary-bold_mediun" OnClick="cadastrar_Click" />

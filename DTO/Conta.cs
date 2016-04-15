@@ -9,8 +9,8 @@ namespace DTO
     public abstract class Conta
     {
         protected int id;
-        protected int angencia;
-        protected Cliente cliente;
+        protected int cliente_id;
+        protected Agencia agencia;
         protected decimal saldo;
         protected TiposDeConta tipo;
 
@@ -27,31 +27,6 @@ namespace DTO
             }
         }
 
-        public int Angencia
-        {
-            get
-            {
-                return angencia;
-            }
-
-            set
-            {
-                angencia = value;
-            }
-        }
-
-        public Cliente Cliente
-        {
-            get
-            {
-                return cliente;
-            }
-
-            set
-            {
-                cliente = value;
-            }
-        }
 
         public decimal Saldo
         {
@@ -76,6 +51,32 @@ namespace DTO
             set
             {
                 tipo = value;
+            }
+        }
+
+        public int Cliente_id
+        {
+            get
+            {
+                return cliente_id;
+            }
+
+            set
+            {
+                cliente_id = value;
+            }
+        }
+
+        public Agencia Agencia
+        {
+            get
+            {
+                return agencia;
+            }
+
+            set
+            {
+                agencia = value;
             }
         }
     }
